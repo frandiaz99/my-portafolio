@@ -22,21 +22,16 @@ export default function HomePage() {
 
         {/* Projects Section */}
         <section className="mb-16" id="projects">
-          <h2 className="text-3xl font-bold mb-8 text-center">My Projects</h2>
           <ProjectsGrid />
         </section>
 
         {/* Skills Section */}
         <section className="mb-16" id="skills">
-          <h2 className="text-3xl font-bold mb-8 text-center">
-            Technical Skills
-          </h2>
           <SkillsSection />
         </section>
 
         {/* Education Section */}
         <section className="mb-16" id="education">
-          <h2 className="text-3xl font-bold mb-8 text-center">Education</h2>
           <EducationTimeline />
         </section>
 

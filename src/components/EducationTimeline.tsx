@@ -5,20 +5,12 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
 import { GraduationCap, Calendar, Award, BookOpen } from "lucide-react";
+import educationData from "@/data/education-data.json"; // Assuming you have a JSON file with education data
 
-interface EducationItem {
-  degree: string;
-  institution: string;
-  period: string;
-  description: string;
-  courses: string[];
-  achievements: string[];
-}
+// Define the structure of an education item
 
 const EducationTimeline = ({
-  items = defaultEducationItems,
-}: {
-  items?: EducationItem[];
+  items = educationData,
 }) => {
   return (
     <section className="w-full py-12 bg-background">
@@ -103,58 +95,5 @@ const EducationTimeline = ({
   );
 };
 
-const defaultEducationItems: EducationItem[] = [
-  {
-    degree: "Master of Science in Computer Science",
-    institution: "Stanford University",
-    period: "2022 - Present",
-    description:
-      "Specializing in Artificial Intelligence and Machine Learning with focus on neural networks and computer vision applications.",
-    courses: [
-      "Advanced Algorithms",
-      "Machine Learning",
-      "Neural Networks",
-      "Computer Vision",
-      "Distributed Systems",
-    ],
-    achievements: [
-      "Research Assistant in the AI Lab",
-      "Teaching Assistant for CS101: Introduction to Computer Science",
-      "Dean's List for Academic Excellence",
-    ],
-  },
-  {
-    degree: "Bachelor of Science in Computer Science",
-    institution: "University of California, Berkeley",
-    period: "2018 - 2022",
-    description:
-      "Graduated with honors. Focused on software engineering fundamentals and systems design.",
-    courses: [
-      "Data Structures",
-      "Algorithms",
-      "Operating Systems",
-      "Database Systems",
-      "Web Development",
-    ],
-    achievements: [
-      "Graduated Summa Cum Laude",
-      "Undergraduate Research in Distributed Systems",
-      "President of Computer Science Club",
-    ],
-  },
-  {
-    degree: "High School Diploma",
-    institution: "Tech Preparatory Academy",
-    period: "2014 - 2018",
-    description:
-      "Advanced placement in mathematics and computer science courses.",
-    courses: ["AP Computer Science", "AP Calculus", "AP Physics", "Robotics"],
-    achievements: [
-      "Valedictorian",
-      "First place in State Robotics Competition",
-      "National Merit Scholar",
-    ],
-  },
-];
 
 export default EducationTimeline;

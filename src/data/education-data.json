@@ -1,0 +1,42 @@
+[
+  {
+    "degree": "Bachelor's Degree in Information Systems",
+    "institution": "National University of La Plata",
+    "period": "2022 - Present",
+    "description": "Focused on understanding complex software systems, project planning, and the role of information systems in organizations. Emphasis on systems analysis, software architecture, and data-driven decision-making.",
+    "courses": [
+      "Object-Oriented Programming",
+      "Software Engineering",
+      "Information Systems Design",
+      "Database Administration",
+      "Organizational Theory and Project Management"
+    ],
+    "achievements": [
+      "Gained a deep understanding of software development life cycle and system modeling",
+      "Learned to analyze business requirements and design appropriate system solutions",
+      "Worked in academic teams applying project management techniques to deliver group assignments",
+      "Presented case studies connecting technical solutions with organizational goals",
+      "Strengthened skills in academic writing, research, and structured problem solving"
+    ]
+  },
+  {
+    "degree": "Associate Degree in Programming and Systems Analysis",
+    "institution": "National University of La Plata",
+    "period": "2022 - Present",
+    "description": "Built foundational knowledge in programming, data structures, logic, and systems analysis. Focused on understanding how to translate real-world problems into efficient software solutions.",
+    "courses": [
+      "Programming Fundamentals",
+      "Logic and Discrete Mathematics",
+      "Operating Systems",
+      "Data Structures and Algorithms",
+      "Systems Analysis and Design"
+    ],
+    "achievements": [
+      "Acquired strong problem-solving and algorithmic thinking through theoretical and practical coursework",
+      "Learned to model systems and write technical documentation for analysis projects",
+      "Improved ability to work collaboratively through academic group activities",
+      "Completed academic projects involving requirements gathering, modeling, and presentations",
+      "Developed time management and self-learning strategies through a demanding academic schedule"
+    ]
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "React": "function FinalProject() {\n  return <div>Started yesterday, due today</div>;\n}",
+  "TypeScript": "type Grade = 'A' | 'B' | 'C' | '???';\nconst myGrade: Grade = 'depends on the curve';",
+  "Python": "def exam():\n    raise Exception(\"We never saw this in class!\")\nexam()",
+  "Java": "public class GroupProject {\n  public static void main(String[] args) {\n    System.out.println(\"Did all the work myself\");\n  }\n}",
+  "AWS": "# Student tier activated\naws deploy --credits=0\n# please sponsor me",
+  "Node.js": "const assignment = () => console.log('Submitted at 11:59 PM');\nsetTimeout(assignment, 0);\n// nailed it"
+}
