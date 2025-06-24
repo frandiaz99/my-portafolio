@@ -59,6 +59,7 @@ export default function ProjectsGrid({
               thumbnail={project.thumbnail}
               technologies={project.technologies}
               githubUrl={project.githubUrl}
+              category={project.category}
             />
           ))}
         </div>
