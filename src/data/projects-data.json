@@ -25,7 +25,7 @@
             "MongoDB",
             "Express"
         ],
-        "githubUrl": "https://github.com/username/blog-platform",
+        "githubUrl": "https://github.com/username/blog-platform"
     },
     {
         "id": "3",
@@ -39,7 +39,7 @@
             "AWS",
             "D3.js"
         ],
-        "githubUrl": "https://github.com/username/ecommerce-analytics",
+        "githubUrl": "https://github.com/username/ecommerce-analytics"
     },
     {
         "id": "4",
@@ -52,7 +52,7 @@
             "Docker",
             "RabbitMQ"
         ],
-        "githubUrl": "https://github.com/username/distributed-simulator",
+        "githubUrl": "https://github.com/username/distributed-simulator"
     },
     {
         "id": "5",
@@ -66,7 +66,7 @@
             "OpenWeather API",
             "Tailwind CSS"
         ],
-        "githubUrl": "https://github.com/username/weather-app",
+        "githubUrl": "https://github.com/username/weather-app"
     },
     {
         "id": "6",
@@ -80,6 +80,6 @@
             "PostgreSQL",
             "Flask"
         ],
-        "githubUrl": "https://github.com/username/supply-chain-optimizer",
+        "githubUrl": "https://github.com/username/supply-chain-optimizer"
     }
 ]
